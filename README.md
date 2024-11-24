@@ -28,3 +28,20 @@ The **Traffic Challan Management System** is a web-based application designed to
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/traffic-challan-management.git
+2. **Set Up Your Environment**:
+
+  - Install a local web server (e.g., XAMPP, WAMP, or MAMP).
+     Place the project folder in the server's htdocs directory.
+3. **Database Configuration**:
+
+-Create a MySQL database.
+Import the provided .sql file into your database.
+Update database credentials in the relevant PHP files (e.g., config.php).
+4. **Start the Application**:
+
+-Access the application via http://localhost/traffic.
+## Requirements
+PHP 7.x or later
+MySQL 5.x or later
+Web server (Apache recommended)
+
