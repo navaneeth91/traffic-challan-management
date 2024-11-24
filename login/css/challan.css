@@ -1,0 +1,118 @@
+
+
+/* Container Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-7, .col-md-5 {
+    padding: 15px;
+    width: 400px;
+}
+
+/* Card Styles */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.card-body, .card-footer {
+    padding: 15px;
+}
+
+.card-footer {
+    text-align: center;
+}
+
+.btn {
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #1f5a85;
+}
+
+.btn-success {
+    background-color: #27ae60;
+}
+
+.btn-success:hover {
+    background-color: #1e8449;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: flex;
+    align-items: center;
+}
+
+.ctype {
+    margin-left: 20px;
+    transform: scale(1.5);
+}
+
+input[type="button"].submit {
+    background-color: #e74c3c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="button"].submit:hover {
+    background-color: #c0392b;
+}
+
+/* Section Styles */
+.business-talking {
+    background-color: #1abc9c;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.business-talking h2 {
+    color: #fff;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .col-md-7, .col-md-5 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    h2, h3 {
+        text-align: center;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .form-group {
+        text-align: center;
+    }
+}
